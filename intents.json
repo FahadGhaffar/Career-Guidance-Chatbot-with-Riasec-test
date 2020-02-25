@@ -1,0 +1,268 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["hi", "is anyone there?", "hello", "good day", "whats up"],
+         "responses": ["Hello!", "Good to see you again!", "Hi there, how can I help?"],
+         "context_set": ""
+        },
+        {"tag": "meet",
+                "patterns": ["how are you","how is your day"],
+                "responses": ["Fine good and you "],
+                "context_set": ""
+        },
+        {"tag": "work",
+                "patterns": ["what is your work","what do you do","what is your purpose","how can you help me ","how is your new job"],
+                "responses": ["I'm Career Guidance chatbot If you want yo Start Quiz Write word START"],
+                "context_set": ""
+        },
+        {"tag": "check",
+                "patterns": ["abcdef"],
+                "responses": ["checking"],
+                "context_set": ""
+        },
+        {"tag": "quest1",
+                "patterns": ["start"],
+                "responses": ["1.do you like to work on cars? yes or no"],
+                "context_set": ""
+        },
+        {"tag": "quest2",
+                "patterns": ["yes to work on cars? yes or no","no to work on cars? yes or no"],
+                "responses": ["2.do you like to do puzzles? yes or no"],
+                "context_set": ""
+        },
+        {"tag": "quest3",
+                "patterns": ["yes to do puzzles? yes or no","on to do puzzles? yes or no"],
+                "responses": ["3.Are you good at working independently? yes or no"],
+                "context_set": ""
+        },
+        {"tag": "quest4",
+                "patterns": ["yes at working independently? yes or no","on at working independently? yes or no"],
+                "responses": ["4.do you like to work in teams? yes or no"],
+                "context_set": ""
+        },
+        {"tag": "quest5",
+                "patterns": ["yes to work in teams? yes or no","on to work in teams? yes or no"],
+                "responses": ["5.Are an ambitious person,I set goals for myself? yes or no"],
+                "context_set": ""
+        },
+        {"tag": "quest6",
+                "patterns": ["yes person,I set goals for myself? yes or no","on person,I set goals for myself? yes or no"],
+                "responses": ["6.do you like to organize things,(files, desks/offices)? yes or no"],
+                "context_set": ""
+        },
+        {"tag": "quest7",
+                "patterns": ["yes to organize things,(files, desks/offices)? yes or no","on to organize things,(files, desks/offices)? yes or no"],
+                "responses": ["7.do you like to build things? yes or no"],
+                "context_set": ""
+        },
+        {"tag": "quest8",
+                "patterns": ["yes to build things? yes or no","on to build things? yes or no"],
+                "responses": ["8.do you like to read about art and music? yes or no"],
+                "context_set": ""
+        },
+        {"tag": "quest9",
+                "patterns": ["yes to read about art and music? yes or no","on to read about art and music? yes or no"],
+                "responses": ["9.do you like to have clear instructions to follow? yes or no"],
+                "context_set": ""
+        },
+        {"tag": "quest10",
+                "patterns": ["yes to have clear instructions to follow? yes or no","on to have clear instructions to follow? yes or no"],
+                "responses": ["10.do you like to try to influence or persuade people? yes or no"],
+                "context_set": ""
+        },
+        {"tag": "quest11",
+                "patterns": ["yes to try to influence or persuade people? yes or no","on to try to influence or persuade people? yes or no"],
+                "responses": ["11.do you like to do experiments? yes or no"],
+                "context_set": ""
+        },
+        {"tag": "quest12",
+                "patterns": ["yes to do experiments? yes or no","on to do experiments? yes or no"],
+                "responses": ["12.do you like to teach or train people? yes or no"],
+                "context_set": ""
+        },
+        {"tag": "quest13",
+                "patterns": ["yes to teach or train people? yes or no","on to teach or train people? yes or no"],
+                "responses": ["13.do you like trying to help people solve their problems? yes or no"],
+                "context_set": ""
+        },
+        {"tag": "quest14",
+                "patterns": ["yes trying to help people solve their problems? yes or no","on trying to help people solve their problems? yes or no"],
+                "responses": ["14.do you like to take care of animals? yes or no"],
+                "context_set": ""
+        },
+        {"tag": "quest15",
+                "patterns": ["yes to take care of animals? yes or no","on to take care of animals? yes or no"],
+                "responses": ["15.would you   mind working 8 hours per day in an office? yes or no"],
+                "context_set": ""
+        },
+        {"tag": "quest16",
+                "patterns": ["yes mind working 8 hours per day in an office? yes or no","on mind working 8 hours per day in an office? yes or no"],
+                "responses": ["16.do you like selling things? yes or no"],
+                "context_set": ""
+        },
+        {"tag": "quest17",
+                "patterns": ["yes selling things? yes or no","on selling things? yes or no"],
+                "responses": ["17.do you enjoy creative writing? yes or no"],
+                "context_set": ""
+        },
+        {"tag": "quest18",
+                "patterns": ["yes  creative writing? yes or no","on  creative writing? yes or no"],
+                "responses": ["18.do you      enjoy science? yes or no"],
+                "context_set": ""
+        },
+        {"tag": "quest19",
+                "patterns": ["yes enjoy science? yes or no","on enjoy science? yes or no"],
+                "responses": ["19.Are you     quick to take on new responsibilities? yes or no"],
+                "context_set": ""
+        },
+        {"tag": "quest20",
+                "patterns": ["yes quick to take on new responsibilities? yes or no","on quick to take on new responsibilities? yes or no"],
+                "responses": ["20.Are you     interested in healing people? yes or no"],
+                "context_set": ""
+        },
+        {"tag": "quest21",
+                "patterns": ["yes interested in healing people? yes or no","on interested in healing people? yes or no"],
+                "responses": ["21.do you enjoy trying to figure out how things work? yes or no"],
+                "context_set": ""
+        },
+        {"tag": "quest22",
+                "patterns": ["yes  trying to figure out how things work? yes or no","on  trying to figure out how things work? yes or no"],
+                "responses": ["22.do you like putting things together or assembling things? yes or no"],
+                "context_set": ""
+        },
+        {"tag": "quest23",
+                "patterns": ["yes putting things together or assembling things? yes or no","on putting things together or assembling things? yes or no"],
+                "responses": ["23.Are you a   creative person? yes or no"],
+                "context_set": ""
+        },
+        {"tag": "quest24",
+                "patterns": ["yes creative person? yes or no","on creative person? yes or no"],
+                "responses": ["24.do you      pay attention to details? yes or no"],
+                "context_set": ""
+        },
+        {"tag": "quest25",
+                "patterns": ["yes pay attention to details? yes or no","on pay  attention to details? yes or no"],
+                "responses": ["25.do you like to do filing or typing? yes or no"],
+                "context_set": ""
+        },
+        {"tag": "quest26",
+                "patterns": ["yes to do filing or typing? yes or no","on to do filing or typing? yes or no"],
+                "responses": ["26.do you like  to analyze things (problems/situations)? yes or no"],
+                "context_set": ""
+        },
+        {"tag": "quest27",
+                "patterns": ["yes to analyze things (problems/situations)? yes or no","on to analyze things (problems/situations)? yes or no"],
+                "responses": ["27.do you like to play instruments or sing? yes or no"],
+                "context_set": ""
+        },
+        {"tag": "quest28",
+                "patterns": ["yes to play instruments or sing? yes or no","on to play instruments or sing? yes or no"],
+                "responses": ["28.do you enjoy learning about other cultures? yes or no"],
+                "context_set": ""
+        },
+        {"tag": "quest29",
+                "patterns": ["yes  learning about other cultures? yes or no","on  learning about other cultures? yes or no"],
+                "responses": ["29.do you like to start your own business? yes or no"],
+                "context_set": ""
+        },
+        {"tag": "quest30",
+                "patterns": ["yes to start your own business? yes or no","on to start your own business? yes or no"],
+                "responses": ["30.do you      like to cook? yes or no"],
+                "context_set": ""
+        },
+        {"tag": "quest31",
+                "patterns": ["yes like to cook? yes or no","on to like to cook? yes or no"],
+                "responses": ["31.do you like acting in plays? yes or no"],
+                "context_set": ""
+        },
+        {"tag": "quest32",
+                "patterns": ["yes acting in plays? yes or no","on to acting in plays? yes or no"],
+                "responses": ["32.Are you a    practical person? yes or no"],
+                "context_set": ""
+        },
+        {"tag": "quest33",
+                "patterns": ["yes practical person? yes or no","on practical person? yes or no"],
+                "responses": ["33.do you like working with numbers or charts? yes or no"],
+                "context_set": ""
+        },
+        {"tag": "quest34",
+                "patterns": ["yes working with numbers or charts? yes or no","on working with numbers or charts? yes or no"],
+                "responses": ["34.do you like to get into discussions about issues? yes or no"],
+                "context_set": ""
+        },
+        {"tag": "quest35",
+                "patterns": ["yes to get into discussions about issues? yes or no","on to get into discussions about issues? yes or no"],
+                "responses": ["35.Are you     good at keeping records of your work? yes or no"],
+                "context_set": ""
+        },
+        {"tag": "quest36",
+                "patterns": ["yes good at keeping records of your work? yes or no","on good at keeping records of your work? yes or no"],
+                "responses": ["36.do you      like to lead? yes or no"],
+                "context_set": ""
+        },
+        {"tag": "quest37",
+                "patterns": ["yes like to lead? yes or no","on you like to lead? yes or no"],
+                "responses": ["37.do you like working outdoors? yes or no"],
+                "context_set": ""
+        },
+        {"tag": "quest38",
+                "patterns": ["yes working outdoors? yes or no","on working outdoors? yes or no"],
+                "responses": ["38.do you like to work in an office? yes or no"],
+                "context_set": ""
+        },
+        {"tag": "quest39",
+                "patterns": ["yes to work in an office? yes or no","on to work in an office? yes or no"],
+                "responses": ["39.Are         you good at maths? yes or no"],
+                "context_set": ""
+        },
+        {"tag": "quest40",
+                "patterns": ["yes you good at maths? yes or no","on you good at maths? yes or no"],
+                "responses": ["40.do you      like helping people? yes or no"],
+                "context_set": ""
+        },
+        {"tag": "quest41",
+                "patterns": ["yes like helping people? yes or no","on like helping people? yes or no"],
+                "responses": ["41.do you      like to draw? yes or no"],
+                "context_set": ""
+        },
+        {"tag": "quest42",
+                "patterns": ["yes like to draw? yes or no","on like to draw? yes or no"],
+                "responses": ["42.do you like to give speeches? yes or no"],
+                "context_set": ""
+        },
+        {"tag": "quest43",
+                "patterns": ["yes to give speeches? yes or no","on to give speeches? yes or no"],
+                "responses": ["Congratulations TEST Finish Now Write  Result  word for Answer"],
+                "context_set": ""
+        },
+        {"tag": "yous",
+                "patterns": ["fine","fine good","fine"],
+                "responses": ["Good ..Can we Start test "],
+                "context_set": ""
+        },
+        {"tag": "goodbye",
+         "patterns": ["cya", "see you later", "goodbye", "i am leaving", "have a good day"],
+         "responses": ["Sad to see you go :(", "Talk to you later", "Goodbye!"],
+         "context_set": ""
+        },
+        {"tag": "age",
+         "patterns": ["how old", "how old is tim", "what is your age", "how old are you", "age?"],
+         "responses": ["I am 18 years old!", "18 years young!"],
+         "context_set": ""
+        },
+        {"tag": "name",
+         "patterns": ["what is your name", "what should I call you", "whats your name?"],
+         "responses": ["You can call me Tim.", "I'm Tim!", "I'm Tim aka Tech With Tim."],
+         "context_set": ""
+        },
+        {"tag": "shop",
+         "patterns": ["id like to buy something", "whats on the menu", "what do you reccommend?", "could i get something to eat"],
+         "responses": ["We sell chocolate chip cookies for $2!", "Cookies are on the menu!"],
+         "context_set": ""
+        },
+        {"tag": "hours",
+         "patterns": ["when are you guys open", "what are your hours", "hours of operation"],
+         "responses": ["We are open 24 hours!"],
+         "context_set": ""
+        }
+   ]
+}
